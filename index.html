@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    
     <title>Pesquisa Culturama</title>
 </head>
 <body>
@@ -43,6 +46,71 @@
 
         <label for="userImage">Upload de Foto:</label>
         <input type="file" name="userImage" accept="image/*">
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Perfil</legend>
+
+        <input type="radio" name="userGender" value="masculino" required>
+        <label for="userGender">Masculino</label>
+
+        <input type="radio" name="userGender" value="feminino" required>
+        <label for="userGender">Feminino</label>
+
+        <input type="radio" name="userGender" value="outro" required>
+        <label for="userGender">Outro</label>
+
+        <input type="radio" name="userGender" value="Prefiro não informar" required>
+        <label for="userGender">Prefiro não informar</label>
+
+        <br>
+
+        <label for="maritalStatus">Estado Civil:</label>
+        <select name="maritalStatus">
+            <option value="">Selecione...</option>
+            <option value="solteiro">Solteiro(a)</option>
+            <option value="casado">Casado(a)</option>
+            <option value="divorciado">Divorciado(a)</option>
+            <option value="viuvo">Viúvo(a)</option>
+        </select>
+
+        <label for="states">Selecione o Estado:</label>
+        <select name="estados">
+            <option value="" selected disabled>Selecione...</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select>
+
+        <label for="userCity">Cidade:</label>
+        <input type="text" name="userCity">
+
 
     </fieldset>
 
