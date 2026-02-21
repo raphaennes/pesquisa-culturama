@@ -151,8 +151,10 @@
         <label for="favoriteColor">Cor Favorita:</label>
         <input id="favoriteColor" type="color" name="userFavoriteColor">
 
-        <br>
+    </fieldset>
 
+    <fieldset>
+        <legend>Opinião</legend>
         <p>Escala de satisfação:</p>
 
         <input id="feedbackGreat" type="radio" name="userFeedback" value="1" >
@@ -171,7 +173,23 @@
 
         <textarea name="userComments" id="comment" placeholder="Comentários sobre a pesquisa..."></textarea>
 
+    </fieldset>
 
+    <fieldset>
+        <legend>Confirmações</legend>
+
+        <input type="checkbox" id="DataCorrect" name="userConfirmations" value="correctData" required>
+        <label for="DataCorrect">Confirmo que os dados informados estão corretos</label>
+
+        <br>
+
+        <input type="checkbox" id="LgpdTerm" name="userLgpdTerm" value="acceptedParticipate" required>
+        <label for="LgpdTerm">Eu aceito participar da pesquisa</label>
+
+        <br>
+
+        <input type="checkbox" id="resultEmail" name="userResultEmail" value="acceptedEmailResult">
+        <label for="resultEmail">Desejo receber os resultados por e-mail</label>
 
     </fieldset>
 
