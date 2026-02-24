@@ -12,7 +12,6 @@ body{
 main{
     width: 100%;
     max-width: 700px;
-    text-align: center;
     margin: 0 auto;
 }
 
@@ -41,8 +40,28 @@ legend{
     font-weight: bold;
     padding: 0 8px;
     font-size: 18px;
-
 }
 
+input,select,textarea{
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+textarea{
+    height: 100px;
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+    width: auto;
+}
+
+input[type="color"]{
+  width: 40px;
+  padding: 0 5px;
+}
 
 
